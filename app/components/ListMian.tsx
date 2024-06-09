@@ -83,7 +83,7 @@ function ListMain() {
             onDragOver={(e) => handleDragOver(e, index)}
             onDrop={(e) => handleDrop(e, index)}
             onDragEnd={handleDragEnd}
-            className={`mb-4 ${getDropClassName(index)} ${draggedIndex === index ? 'opacity-50' : ''}`}
+            className={`mb-4 ${getDropClassName(index)} ${draggedIndex === index ? 'opacity-30 bg-gray-200' : ''}`}
           >
             <SingleListItem itemData={item} />
           </li>
